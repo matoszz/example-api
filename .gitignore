@@ -19,3 +19,8 @@
 
 # Go workspace file
 go.work
+
+# Don't check in generated NATs bits
+nats/api-creds/*
+nats/config/resolver.conf
+nats/nsc/*
